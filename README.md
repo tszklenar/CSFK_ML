@@ -1,6 +1,6 @@
-# CSFK ML group
+# CSFK Variable Star Classification with ML methods
 
-CSFK Variable Star Classification with ML methods
+Here we collect codes used by the Konkoly Machine Learning group
 
 ### Useful_codes
-Here we collect codes written by Batty
+Codes written by Batty.
