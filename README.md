@@ -7,6 +7,8 @@ Here we collect codes used by the Konkoly Machine Learning group.
 - Plans, action items:
 https://docs.google.com/document/d/1lUEQ1T6s9FarxufCODI_O5PioaX3Tkd4Vgm_5NwWMDk/edit
 
+- Google Drive username: mlgroup.konkoly@gmail.com
+
 - ML classification Episode II google sheet:
 https://docs.google.com/spreadsheets/d/1zjivG1-yfDQdaUBRvir4G4a7oZUk2h0a2decbBjS4rg/edit#gid=1500532875
 
