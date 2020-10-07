@@ -16,7 +16,7 @@ https://docs.google.com/document/d/1TWrTMJw4vVTNxDQUug3U_ukSWxo8aG1FJ0Ej8nIhJAs/
 - Recap by Tamás before Szklenar et al 2020 was submitted: 
 https://docs.google.com/document/d/1y9G-J5vmUN1FLUiQPr16pSQTL1HcisyaKs5B3LRrwpM/editit
 
-- LSST ML presentation
+- LSST ML presentation:
  https://www.youtube.com/watch?v=4FxyN8OD8hs&feature=emb_logo
 
 # Code descriptions
