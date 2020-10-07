@@ -1,0 +1,166 @@
+Trained on OGLEIII, tested on OGLEIII and OGLEIV
+Used parameters: ['period', 'A1', 'P21', 'R21']
+
+Basic RNDF results / trained on OGLEIII non-augmented data (OGLE III)
+              precision    recall  f1-score   support
+
+           1       1.00      0.46      0.63        13
+           2       0.99      1.00      0.99       524
+           3       1.00      0.99      0.99      4197
+           4       0.77      0.64      0.70        36
+           5       0.99      0.99      0.99      5184
+
+   micro avg       0.99      0.99      0.99      9954
+   macro avg       0.95      0.82      0.86      9954
+weighted avg       0.99      0.99      0.99      9954
+
+Basic RNDF results / trained on OGLEIII augmented data (OGLE III)
+              precision    recall  f1-score   support
+
+           1       1.00      1.00      1.00      5115
+           2       1.00      1.00      1.00      5130
+           3       1.00      1.00      1.00      5197
+           4       1.00      1.00      1.00      5285
+           5       1.00      0.99      1.00      5172
+
+   micro avg       1.00      1.00      1.00     25899
+   macro avg       1.00      1.00      1.00     25899
+weighted avg       1.00      1.00      1.00     25899
+
+Results / trained on OGLEIII non-augmented data (OGLE III)
+              precision    recall  f1-score   support
+
+           1       0.73      0.62      0.67        13
+           2       0.98      1.00      0.99       524
+           3       1.00      0.99      1.00      4197
+           4       0.29      0.81      0.43        36
+           5       0.99      0.98      0.99      5184
+
+   micro avg       0.99      0.99      0.99      9954
+   macro avg       0.80      0.88      0.81      9954
+weighted avg       0.99      0.99      0.99      9954
+
+Results / trained on OGLEIII augmented data (OGLE III)
+              precision    recall  f1-score   support
+
+           1       0.98      1.00      0.99      5115
+           2       1.00      1.00      1.00      5130
+           3       1.00      0.99      0.99      5197
+           4       0.98      0.98      0.98      5285
+           5       1.00      0.98      0.99      5172
+
+   micro avg       0.99      0.99      0.99     25899
+   macro avg       0.99      0.99      0.99     25899
+weighted avg       0.99      0.99      0.99     25899
+
+Basic RNDF results / trained on OGLEIII non-augmented data (OGLE IV)
+              precision    recall  f1-score   support
+
+           1       0.84      0.61      0.71        95
+           2       0.00      0.00      0.00         0
+           3       1.00      1.00      1.00     29550
+           4       0.93      0.69      0.79       245
+           5       0.99      1.00      1.00     25243
+
+   micro avg       1.00      1.00      1.00     55133
+   macro avg       0.75      0.66      0.70     55133
+weighted avg       1.00      1.00      1.00     55133
+
+Basic RNDF results / trained on OGLEIII augmented data (OGLE IV)
+              precision    recall  f1-score   support
+
+           1       0.80      0.78      0.79        95
+           2       0.00      0.00      0.00         0
+           3       1.00      1.00      1.00     29550
+           4       0.94      0.87      0.90       245
+           5       1.00      1.00      1.00     25243
+
+   micro avg       1.00      1.00      1.00     55133
+   macro avg       0.75      0.73      0.74     55133
+weighted avg       1.00      1.00      1.00     55133
+
+Results / trained on OGLEIII non-augmented data (OGLE IV)
+              precision    recall  f1-score   support
+
+           1       0.76      0.80      0.78        95
+           2       0.00      0.00      0.00         0
+           3       1.00      1.00      1.00     29550
+           4       0.40      0.87      0.55       245
+           5       1.00      0.98      0.99     25243
+
+   micro avg       0.99      0.99      0.99     55133
+   macro avg       0.63      0.73      0.66     55133
+weighted avg       0.99      0.99      0.99     55133
+
+Results / trained on OGLEIII augmented data (OGLE IV)
+              precision    recall  f1-score   support
+
+           1       0.41      0.83      0.55        95
+           2       0.00      0.00      0.00         0
+           3       1.00      0.99      1.00     29550
+           4       0.32      0.93      0.47       245
+           5       1.00      0.98      0.99     25243
+
+   micro avg       0.99      0.99      0.99     55133
+   macro avg       0.54      0.75      0.60     55133
+weighted avg       0.99      0.99      0.99     55133
+
+
+<---------- Confusion matrix ------------->
+Labels are: ['ACep', 'DSct', 'RRL', 'T2Cep', 'ECL']
+
+Basic RNDF results / trained on OGLEIII non-augmented data (OGLE III)
+6.00 0.00 4.00 1.00 2.00
+0.00 522.00 0.00 0.00 2.00
+0.00 1.00 4172.00 0.00 24.00
+0.00 0.00 0.00 23.00 13.00
+0.00 4.00 16.00 6.00 5158.00
+
+Basic RNDF results / trained on OGLEIII augmented data (OGLE III)
+5114.00 0.00 1.00 0.00 0.00
+0.00 5130.00 0.00 0.00 0.00
+4.00 0.00 5176.00 0.00 17.00
+0.00 0.00 0.00 5285.00 0.00
+1.00 6.00 16.00 6.00 5143.00
+
+Results / trained on OGLEIII non-augmented data (OGLE III)
+8.00 0.00 3.00 0.00 2.00
+0.00 524.00 0.00 0.00 0.00
+1.00 0.00 4175.00 0.00 21.00
+1.00 0.00 0.00 29.00 6.00
+1.00 8.00 14.00 70.00 5091.00
+
+Results / trained on OGLEIII augmented data (OGLE III)
+5113.00 0.00 2.00 0.00 0.00
+0.00 5127.00 3.00 0.00 0.00
+23.00 0.00 5150.00 0.00 24.00
+90.00 0.00 0.00 5195.00 0.00
+1.00 8.00 14.00 100.00 5049.00
+
+Basic RNDF results / trained on OGLEIII non-augmented data (OGLE IV)
+58.00 0.00 11.00 2.00 24.00
+0.00 0.00 0.00 0.00 0.00
+4.00 41.00 29465.00 0.00 40.00
+7.00 0.00 0.00 169.00 69.00
+0.00 26.00 36.00 11.00 25170.00
+
+Basic RNDF results / trained on OGLEIII augmented data (OGLE IV)
+74.00 0.00 13.00 4.00 4.00
+0.00 0.00 0.00 0.00 0.00
+18.00 11.00 29481.00 0.00 40.00
+0.00 0.00 3.00 213.00 29.00
+1.00 18.00 36.00 9.00 25179.00
+
+Results / trained on OGLEIII non-augmented data (OGLE IV)
+76.00 0.00 7.00 3.00 9.00
+0.00 0.00 0.00 0.00 0.00
+16.00 37.00 29458.00 0.00 39.00
+8.00 0.00 0.00 214.00 23.00
+0.00 45.00 49.00 323.00 24826.00
+
+Results / trained on OGLEIII augmented data (OGLE IV)
+79.00 0.00 8.00 4.00 4.00
+0.00 0.00 0.00 0.00 0.00
+107.00 24.00 29380.00 0.00 39.00
+6.00 0.00 1.00 229.00 9.00
+1.00 35.00 43.00 491.00 24673.00
